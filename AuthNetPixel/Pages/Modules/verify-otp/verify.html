@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de OTP</title>
+    <link rel="stylesheet" href="otp.css" />
+    <script src="verify.js" defer></script>
+</head>
+<body>
+    <h1>Gerador de OTP</h1>
+    <p id="otp"></p>
+    <p id="message"></p>
+    <div class="loading">
+        <div class="progress"></div>
+    </div>
+
+    <div>
+        <h2>Verificar OTP</h2>
+        <input type="text" id="otpInput" placeholder="Digite o seu OTP" />
+        <button onclick="verifyOtp()">Verificar</button>
+        <p id="verificationMessage"></p>
+    </div>
+</body>
+</html>

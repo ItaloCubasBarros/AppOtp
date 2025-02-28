@@ -1,0 +1,15 @@
+.loading {
+    width: 100%;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.progress {
+    height: 20px;
+    width: 0;
+    background-color: #4caf50;
+    transition: width 120s linear; /* Transição suave */
+}
